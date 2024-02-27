@@ -1,0 +1,164 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  text-align: center;
+}
+
+.MuiTextField-root {
+  margin-right: 2rem;
+}
+.bod{
+  margin: 2rem 2rem 2rem 2rem;
+  display: flex;
+  
+}
+.bod button{
+  margin-left: 2rem;
+  height: 40px;
+  position: relative;
+  top: 0.5rem;
+}
+.bod{
+  display: flex;
+  flex-direction: column;
+
+}
+button {
+  margin: 1rem 1rem 1rem 1rem ;
+  background-color: black;
+}
+
+.info-area {
+  background-color: rgba(136, 136, 136, 0.5); /* Adjust the alpha value as needed */
+  height:400px;
+  width: 800px;
+  border-radius: 1rem;
+  margin-top: 3.5rem;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.dat{
+  background-color: rgba(200, 250, 300, 0.5); /* Adjust the alpha value as needed */
+border-radius: 1rem;
+margin-top: 1rem;
+}
+h2{
+  .nanum-gothic-regular {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  color: aliceblue;
+font-size: 3rem;
+}
+#city {
+  width: 100%; /* Make the input field take full width */
+  margin-bottom: 1rem;
+}
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #555;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: #ccc;
+  }
+}
+
+/* Media Query for medium-sized screens */
+@media (min-width: 601px) and (max-width: 1200px) {
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #666;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: #bbb;
+  }
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1201px) {
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: #ddd;
+  }
+}
+
+.my-div {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+  .my-div {
+    width: 100%; /* Take full width on smaller screens */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+}
+
+/* Media Query for medium-sized screens */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .my-div {
+    width: 50%; /* Take 50% width on medium-sized screens */
+  }
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1201px) {
+  .my-div {
+    width: 30%; /* Take 30% width on larger screens */
+  }
+}
+
+/* Add more media queries and styles as needed for different screen sizes */
